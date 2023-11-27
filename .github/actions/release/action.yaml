@@ -14,13 +14,13 @@ inputs:
     description: "Should the Modpack Be Uploaded to CurseForge"
     required: true
 
-  MODRINTH_TOKEN:
+  MODRINTH_KEY:
     required: false
     description: "Token used to uploading modpack to Modrinth"
   MODRINTH_ID:
     required: false
     description: "ID used to uploading modpack to Modrinth"
-  CURSEFORGE_TOKEN:
+  CURSEFORGE_KEY:
     required: false
     description: "Token used to uploading modpack to Curseforge"
   CURSEFORGE_ID:
@@ -100,7 +100,7 @@ runs:
         uses: Kir-Antipov/mc-publish@v3.2
         with:
           modrinth-id: ${{ inputs.MODRINTH_ID }}
-          modrinth-token: ${{ inputs.MODRINTH_TOKEN }}
+          modrinth-token: ${{ inputs.MODRINTH_KEY }}
           loaders: ${{ env.loader }}
           game-versions: ${{ env.game-version }}
           changelog-file: CHANGELOG.release.*
@@ -120,7 +120,7 @@ runs:
         uses: Kir-Antipov/mc-publish@v3.2
         with:
           curseforge-id: ${{ inputs.CURSEFORGE_ID }}
-          curseforge-token: ${{ inputs.CURSEFORGE_TOKEN }}
+          curseforge-token: ${{ inputs.CURSEFORGE_KEY }}
           loaders: ${{ env.loader }}
           game-versions: ${{ env.game-version }}
           changelog-file: CHANGELOG.release.*
