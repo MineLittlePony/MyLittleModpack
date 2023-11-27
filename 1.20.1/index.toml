@@ -1,0 +1,76 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
+metafile = true
+
+[[files]]
+file = "mods/big-pony.pw.toml"
+hash = "a1ef837843b4c513e1722d890f45f8dd29a0102e64abe18ae1edfd330b4bbe81"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "f6f8827bc39d892a56351a6cecd39176addebb2ebf1c608b761b0d1985080b05"
+metafile = true
+
+[[files]]
+file = "mods/fabric-seasons.pw.toml"
+hash = "a279b276bfeff8bf9b475d90cad4a7c1359e295cca6c5bf5b79e4e6746e3d704"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "0c4c20d601b15dbc85c275732d9efe9369597503c7d6caa9a7fee217f67073e7"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-fabric.pw.toml"
+hash = "76a2166b6bc2678069a93ced5969d56ee8189d6a30a86f57da75bd89af0e7f4c"
+metafile = true
+
+[[files]]
+file = "mods/hd-skins.pw.toml"
+hash = "a72f9d22199c058b621d49d651dcb6909f211bad7b7327347691a07f4bc6ecb4"
+metafile = true
+
+[[files]]
+file = "mods/mine-little-pony.pw.toml"
+hash = "a905a60dc3472f554cde65f8682263379fcb9cffd3c409d8594c0f979520c805"
+metafile = true
+
+[[files]]
+file = "mods/missing-wilds.pw.toml"
+hash = "f98da2d0dc0cfe62c51e4c1e3154640f73b02340c339cfe9210a6d6dc2ebb381"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
+metafile = true
+
+[[files]]
+file = "mods/sockies.pw.toml"
+hash = "d5d0b85741c02259635bbc2df9b60fcea20365b00c98e07b48e9e5a1cf28cbb2"
+metafile = true
+
+[[files]]
+file = "mods/stringer-things.pw.toml"
+hash = "d415e8cac3fb4d31dbb40c536b07a2622ff2460d976865e079404a3eaf896b40"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "b2e02d1210f025b905299bfc88f895058640158343322641aca2c4875622c992"
+metafile = true
+
+[[files]]
+file = "mods/unicopia.pw.toml"
+hash = "0f7b6ede8834f7cdbadb033d5054f52571265867d5be840a768cc0cf6956eac7"
+metafile = true

@@ -1,0 +1,61 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "260a142b1b04da998ccc93034d31cc64e737bdd6e4538da21441c4d9c506a46d"
+metafile = true
+
+[[files]]
+file = "mods/big-pony.pw.toml"
+hash = "d2c9f6682d3b9774a938c6d5734687e8ac4a9ecb536ecad4407d8d0bccb265af"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "da5355d446fc91093171b0d6a082e5056498eb59b5a6ec51f8f4d194a0abc58a"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "d171eabd7e1e44aaf3437dff4887bd02d2bb90f54c219417f538278b0f6cda12"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "0c4c20d601b15dbc85c275732d9efe9369597503c7d6caa9a7fee217f67073e7"
+metafile = true
+
+[[files]]
+file = "mods/hd-skins.pw.toml"
+hash = "1ecc6feab94ef6008fde2d24cc16fbc4504ba4cab937efc9818c2d20666f8096"
+metafile = true
+
+[[files]]
+file = "mods/mine-little-pony.pw.toml"
+hash = "e2753ee0f1d6fc5e51fda84bf01acecb7630a7c1a22104d32fca402c6ab4de5d"
+metafile = true
+
+[[files]]
+file = "mods/missing-wilds.pw.toml"
+hash = "f98da2d0dc0cfe62c51e4c1e3154640f73b02340c339cfe9210a6d6dc2ebb381"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "306af2f0e0af6e0a275980d50775434944d1d020098ef18b44ecd6e70b17369e"
+metafile = true
+
+[[files]]
+file = "mods/stringer-things.pw.toml"
+hash = "d415e8cac3fb4d31dbb40c536b07a2622ff2460d976865e079404a3eaf896b40"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "44ab19941b58049d859553df1a1a9d31e5eaf0eb98a8b7c4d3f79d9b39e1c368"
+metafile = true
+
+[[files]]
+file = "mods/unicopia.pw.toml"
+hash = "b27072f2adb860bb9710286d3b0ac5af9cb6c0e3ed3fee5c994fa8e37cf8ea85"
+metafile = true

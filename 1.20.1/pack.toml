@@ -1,0 +1,13 @@
+name = "MyLittleModpack"
+author = "Sollace, Fauli1221"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "97ece9dae9473fef689da742c23dd362fc24efa2ada5ddc71fe9a87f9794bddd"
+
+[versions]
+fabric = "0.14.25"
+minecraft = "1.20.1"
