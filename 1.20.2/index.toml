@@ -11,8 +11,33 @@ hash = "d2c9f6682d3b9774a938c6d5734687e8ac4a9ecb536ecad4407d8d0bccb265af"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "e351b77ed6aacedcf76d5aac0d3a1e724499ab5c99806d9c0003d5fa9bf88c05"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "da5355d446fc91093171b0d6a082e5056498eb59b5a6ec51f8f4d194a0abc58a"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "ab1c014ce67654e89af779137bdfd1f6f22888af218f44cf5d83e943d0d5fbc4"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "ebc95d8dac761549f43c49938b8d1a0044a43af4484f492959de83a2bdc9e267"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "f84192fd379617a845a048e57291a0eea8973f24aae2d2be6923196f2784a26c"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "093a970badc9044a40fbfcd429efcf459ea6f34a24f5ebc6312ce2ebb8b50159"
 metafile = true
 
 [[files]]
@@ -21,13 +46,43 @@ hash = "d171eabd7e1e44aaf3437dff4887bd02d2bb90f54c219417f538278b0f6cda12"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "d2c2ff7235ed661ed8fb82e20a6de85b147e69c4b1cf1cc9102ebf8fe102636f"
+metafile = true
+
+[[files]]
 file = "mods/fallingleaves.pw.toml"
 hash = "0c4c20d601b15dbc85c275732d9efe9369597503c7d6caa9a7fee217f67073e7"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "39a6a39433b1b104bfafafcd60a8171f866daa2ebefffd64df822d0e69288e3a"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "e00070f0db00ebcd304f8f68fd44e59ceaedbc8c27743c9c195134aae57c5fde"
+metafile = true
+
+[[files]]
 file = "mods/hd-skins.pw.toml"
 hash = "1ecc6feab94ef6008fde2d24cc16fbc4504ba4cab937efc9818c2d20666f8096"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "d1e35e3c6a07ec2760c5f3a68974bc7952310abb6499898d2c3ad257598f616a"
 metafile = true
 
 [[files]]
@@ -41,8 +96,38 @@ hash = "f98da2d0dc0cfe62c51e4c1e3154640f73b02340c339cfe9210a6d6dc2ebb381"
 metafile = true
 
 [[files]]
+file = "mods/mixintrace.pw.toml"
+hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "b136ca50e7d8239319f528ceb521e3482f753b25d768afaf39fa6ea81e549f2e"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "293f06651cc903947ae422f5e612c73d66154453ad1390bda63920370671b968"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "306af2f0e0af6e0a275980d50775434944d1d020098ef18b44ecd6e70b17369e"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "92fbfef541293794a06fdc71deedfb86d12fc2f3e5fc42842f94bb9f6a42e2ed"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "ebe386eef0fb117e3bc3252786fbca4b3f05e45eb2cc8e2f56549aad396d244f"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "ff614f50beb3bc29a699dbcc0a61f65bd6c6154cd374f2763ee57cf578045a8f"
 metafile = true
 
 [[files]]
@@ -58,4 +143,19 @@ metafile = true
 [[files]]
 file = "mods/unicopia.pw.toml"
 hash = "b27072f2adb860bb9710286d3b0ac5af9cb6c0e3ed3fee5c994fa8e37cf8ea85"
+metafile = true
+
+[[files]]
+file = "mods/void-fog.pw.toml"
+hash = "4356da2c2bc4e1393d71c89c77dd532e83a25d2f9e6699c91bcd289eaf7d96e7"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "3fd697e0539879163b6a5649a587a4a82a2be58fb12e63128114f631a060adc8"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "1f77901c1b32849c704d8dbd0cd3aefc47e36a63b718fa92708ab73a3a529d89"
 metafile = true
