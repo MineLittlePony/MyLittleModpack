@@ -23,8 +23,8 @@ Compilation of all the different mods built to work with Mine Little Pony or tha
 8. [Coming Soon] Pony Plushies
 
 ## By other devs
-1. --[Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)-- (only 1.20.1)
-2. --[Seasons Mod](https://modrinth.com/mod/fabric-seasons)-- (only 1.20.1)
+1. ~[Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)~ (only 1.20.1)
+2. ~[Seasons Mod](https://modrinth.com/mod/fabric-seasons)~ (only 1.20.1)
 3. [Falling Leaves](https://modrinth.com/mod/fallingleaves)
 4. [Missing Wilds](https://modrinth.com/mod/missing-wilds)
 5. [Apple Skin](https://modrinth.com/mod/appleskin)
