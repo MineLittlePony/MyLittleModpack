@@ -1,0 +1,13 @@
+name = "HD Skins"
+filename = "hdskins-6.11.1+1.20.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FzE9gshV/versions/GryjAmep/hdskins-6.11.1%2B1.20.2.jar"
+hash-format = "sha1"
+hash = "86db34b1eb3db37aaf16ec2b35ac83b50e0a67e1"
+
+[update]
+[update.modrinth]
+mod-id = "FzE9gshV"
+version = "GryjAmep"
