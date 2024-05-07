@@ -1,13 +1,13 @@
 name = "Void Fog"
-filename = "Void-Fog-2.11.1+1.20.5.jar"
+filename = "Void-Fog-2.11.1+1.20.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JRC9aXm9/versions/C5yyindr/Void-Fog-2.11.1%2B1.20.5.jar"
+url = "https://cdn.modrinth.com/data/JRC9aXm9/versions/SPxNX1TK/Void-Fog-2.11.1%2B1.20.2.jar"
 hash-format = "sha1"
-hash = "ae22a6dd077b120850f836966b2031dcf6e077fc"
+hash = "1c6bdbfdb66d0259c4eb34b9ca834b9b06b39df5"
 
 [update]
 [update.modrinth]
 mod-id = "JRC9aXm9"
-version = "C5yyindr"
+version = "SPxNX1TK"
