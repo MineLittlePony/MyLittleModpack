@@ -1,0 +1,85 @@
+hash-format = "sha256"
+
+[[files]]
+file = "CHANGELOG.md"
+hash = "6bda828d47c10f29a40b5ec7c5820edb7944d1356d35d9d49f818c4849e7db02"
+
+[[files]]
+file = "mods/big-pony.pw.toml"
+hash = "c27b097d27a5cac175f7c34e9773007e5f4bba8f876dff7d81ef4f229aea8ae8"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "3128c3600b7b3f360925afb2e0ace33c63fe0d588f91fc8f42648ff2362cb2a3"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "144c9b2dd530cfdf13dd3757c8eddcf6cfcc9631536dcabdd1378a39c8bdf47b"
+metafile = true
+
+[[files]]
+file = "mods/hd-skins.pw.toml"
+hash = "95975ac92f6c08e7f92d935fc69cbf75f3716f53bdc14b129f9722879b93c468"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "e401c07af397744ab4e6a6dad4f965c727c0ccbdeb62b7f025ac0be5df89e020"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "e416b18eebf514dea2014cf5c7fd3ee8493934a0b4e937509f15172ad271fde2"
+metafile = true
+
+[[files]]
+file = "mods/mine-little-pony.pw.toml"
+hash = "10766c61f09b9580c88fc2df46102e8f8013a18fab1c81ece956c1ca46342a00"
+metafile = true
+
+[[files]]
+file = "mods/mixintrace.pw.toml"
+hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "6c8c93e74e46a0cac65179d027e9aac4eaebc44847604b0ff86644f3030116e8"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "7ca62a9da5c2ec9f0a8bed5394021c959e90077db16b313be44f4c8736f7fbf5"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "74058d27cf4f2eaa273b7e3e7068e573a196d12116d2290c9088cdb5895c3aa8"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "c35d165125b8a1064f59e6573ce99fb62ce36142adbc476f3e2533256910ec4b"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "174b7b4038141e84a8a08c29d742fe4608574955991b6147b0a5fdac4c6529ff"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "0b1a53f585b616faa04cb2bccdb05e67c0fbc1887b209c191d4fb7c91d13cac4"
+metafile = true
+
+[[files]]
+file = "mods/void-fog.pw.toml"
+hash = "f7f73968793b46464d4a0639d8b502a9e446e0f6b1256cdaa812c643585101eb"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "c097a97f354136fdea5214a9660970eade3a25449792365372dd82f65f7a9ffa"
+metafile = true

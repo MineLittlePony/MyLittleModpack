@@ -1,0 +1,13 @@
+name = "Mine Little Pony"
+filename = "minelittlepony-4.11.8+1.20.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JBjInUXM/versions/mQRk9S3N/minelittlepony-4.11.8%2B1.20.5.jar"
+hash-format = "sha1"
+hash = "a3e0fdf9bc5d0e099845892bc9945f70b3c2e37e"
+
+[update]
+[update.modrinth]
+mod-id = "JBjInUXM"
+version = "mQRk9S3N"
