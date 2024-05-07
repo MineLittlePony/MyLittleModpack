@@ -1,0 +1,7 @@
+name = "Sockies"
+filename = "Sockies-1.0.0-beta.2.jar"
+
+[download]
+url = "https://github.com/MineLittlePony/Sockies/releases/download/1.0.0-beta.2/Sockies-1.0.0-beta.2.jar"
+hash-format = "sha256"
+hash = "929d603c534528212214bba52bc8644c89778de6abf086923ea5bde785a556ab"

@@ -2,159 +2,143 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "6bda828d47c10f29a40b5ec7c5820edb7944d1356d35d9d49f818c4849e7db02"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "e9999d5ccd9cba3a02989e8887ee877e9dcf2daf6fb6d5aa8f1c960e42de6669"
 metafile = true
 
 [[files]]
 file = "mods/big-pony.pw.toml"
-hash = "fe2245fdec9932cc3031a0f5a25c5ca7ee5525cbc90278d7c7df5d003a6e4eda"
 metafile = true
 
 [[files]]
 file = "mods/bookshelf-lib.pw.toml"
-hash = "13bf781d0d8d7580bb57618b41be57626d104b010ba390fff9bf2aa3e34e8535"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "f250d6778f5b8d03ca32913bea5ea677508e9bb6d8201cdebe005bbe9c3100ee"
 metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "ab1c014ce67654e89af779137bdfd1f6f22888af218f44cf5d83e943d0d5fbc4"
 metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "b42f1dc7a2d11031a7b296055ac7e32637be00e7d52cd37254a8b500a5afcb7b"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "5c223fcf4fce47eb5b2f3a2635b6723d0ad15450228c416b314ab475720fac60"
+metafile = true
+
+[[files]]
+file = "mods/emitrades.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "c5796559f25dec056adb41705f0f50afe1debcea6a4ae8d5efeec30c953ea50e"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "07e0e6a791f94db3ff245a16ba014936e35410fe0ee9aba9cbac2deee25f5a70"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "d74850aaf1ed5a53805d523aa2b624f58c43813446be0b6c066a599c80d704e6"
 metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "948e8a5d65ede4a8612a2f476d7b3b0f2fe00436ab3b8dd73829d4bdcf0cdf22"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "4146027b92b4885fddec00435233c61c3728b5e09265982ab187021519a4fa89"
 metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "d1e32ea50e119b059ffe57b2785625679cf04641dfa2d7189197f09eb63aa7f7"
 metafile = true
 
 [[files]]
 file = "mods/hd-skins.pw.toml"
-hash = "6e3150af37e35ef1daba63fd071c1652d68f5c277009ca478431fb48cbe39315"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "d10d6632f398e4bc8f62555eab1d70a6624837741fc653f2e2a18188166c6477"
 metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "e416b18eebf514dea2014cf5c7fd3ee8493934a0b4e937509f15172ad271fde2"
 metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "d398662ae6e9d87e89384ba50a9787dbeb9425902a18b0cd8239efd0b966b453"
 metafile = true
 
 [[files]]
 file = "mods/mine-little-pony.pw.toml"
-hash = "594401fb3df6b762e9d24d0ecb41fbc5d8401e4c0840c9abe63c6d3ef47dfa4a"
 metafile = true
 
 [[files]]
 file = "mods/mixintrace.pw.toml"
-hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "f334786b4fa5a2cb0a6a952fa2a6ab74de3395c2be806045ea3a5905edd75363"
 metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "a6a57004f5990ae59be0b89eb2edc5f50e2233d0410bd5f8060d58401592e0ef"
 metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "2bb3613e74cbc7f107b6e2c2d8dbefa84766b2cac0e2a9085e63a230a151d773"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "975478c93b1218131fd48695cd7efb9bbe0d69125409940b015a7058e42fb6be"
+metafile = true
+
+[[files]]
+file = "mods/seasonhud-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sockies.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "f7c09e537f9db67804dd7df6b8ba3a0cfb63429ad992a99e8f8faba33187ded2"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "5e73967368d47038c38dc52fa298b45603fbe6baf2608f171638ff767178ad9a"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/stringer-things.pw.toml"
-hash = "d415e8cac3fb4d31dbb40c536b07a2622ff2460d976865e079404a3eaf896b40"
 metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
-hash = "9b42989d1485831cb2c269c9fe6118b6dfc80397e050b3e79cfeca4e1d626b45"
 metafile = true
 
 [[files]]
 file = "mods/unicopia.pw.toml"
-hash = "ff5ca453fc4f4077da2b8386532c2027e5b0182613cc976bb01a7e820731dac2"
 metafile = true
 
 [[files]]
 file = "mods/void-fog.pw.toml"
-hash = "4356da2c2bc4e1393d71c89c77dd532e83a25d2f9e6699c91bcd289eaf7d96e7"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "fc89119ebc9c811ef3cd852556b5caaa27c03eb8fb0014567dd83cc44024ba98"
 metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "af2f18c6feb48fe4bfc019bdbc4899eb874324082207dc01171ffbf15547f5dd"
 metafile = true
