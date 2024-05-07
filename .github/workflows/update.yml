@@ -66,18 +66,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install Packwiz
-        uses: supplypike/setup-bin@v3
-        with:
-          uri: 'https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip'
-          name: 'packwiz'
-          version: 'linux'
+      - name: Install nix
+        uses: cachix/install-nix-action@v26
 
       - name: Update Mods with Packwiz
-        run: packwiz update -a -y
+        run: nix develop --command packwiz update -a -y
 
       - name: Push the updated mod list via a Pull Request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
             commit-message: "update(${{ matrix.modpack }}): updated mods"
             title: 'update(${{ matrix.modpack }}): updated mods'
