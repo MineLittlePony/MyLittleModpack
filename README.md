@@ -24,7 +24,7 @@ Compilation of all the different mods built to work with Mine Little Pony or tha
 9. [Void Fog](https://modrinth.com/mod/void-fog)
 
 ### By other devs
-1. ~[Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)~ (only 1.20.1)
+1. ~[Farmer's Delight](https://modrinth.com/mod/farmers-delight-refabricated)~ (only 1.20.1)
 2. ~[Seasons Mod](https://modrinth.com/mod/fabric-seasons)~ (only 1.20.1)
 3. ~[Serene Seasons](https://modrinth.com/mod/serene-seasons)~ (only 1.20.4) 
 4. [Seasons Hud](https://modrinth.com/mod/seasonhud-fabric)
