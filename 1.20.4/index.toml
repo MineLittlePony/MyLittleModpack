@@ -112,10 +112,6 @@ file = "mods/serene-seasons.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/sockies.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 metafile = true
 

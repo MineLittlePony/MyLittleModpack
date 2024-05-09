@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/api-fabric-orange.svg)
 
 Compilation of all the different mods built to work with Mine Little Pony or that can be used to enhance the experience.
-
+  
 ## Mod List
 
 ### By the same devs
@@ -25,16 +25,18 @@ Compilation of all the different mods built to work with Mine Little Pony or tha
 
 ### By other devs
 1. ~[Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)~ (only 1.20.1)
-2. ~[Seasons Mod](https://modrinth.com/mod/fabric-seasons) + [Seasons Hud](https://modrinth.com/mod/seasonhud-fabric)~ (only 1.20.1)
-3. [Falling Leaves](https://modrinth.com/mod/fallingleaves)
-4. [Missing Wilds](https://modrinth.com/mod/missing-wilds)
-5. [Apple Skin](https://modrinth.com/mod/appleskin)
-6. [Trinkets](https://modrinth.com/mod/trinkets)
-7. [Continuity](https://modrinth.com/mod/continuity)
-8. [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions)
-9. [Zoomify](https://modrinth.com/mod/zoomify)
-10. ~[Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)~ (only 1.20.1)
-11. ~[Dynamic Lights](https://modrinth.com/mod/lambdynamiclights)~ (only 1.20.1)
+2. ~[Seasons Mod](https://modrinth.com/mod/fabric-seasons)~ (only 1.20.1)
+3. ~[Serene Seasons](https://modrinth.com/mod/serene-seasons)~ (only 1.20.4) 
+4. [Seasons Hud](https://modrinth.com/mod/seasonhud-fabric)
+5. [Falling Leaves](https://modrinth.com/mod/fallingleaves)
+6. ~[Missing Wilds](https://modrinth.com/mod/missing-wilds)~ (only 1.20.1)
+7. [Apple Skin](https://modrinth.com/mod/appleskin)
+8. [Trinkets](https://modrinth.com/mod/trinkets)
+9. [Continuity](https://modrinth.com/mod/continuity)
+10. [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions)
+11. [Zoomify](https://modrinth.com/mod/zoomify)
+12. [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)
+13. [Dynamic Lights](https://modrinth.com/mod/lambdynamiclights)
 
 ### Essentials
 1. [Mod Menu](https://modrinth.com/mod/modmenu)
@@ -45,11 +47,14 @@ Compilation of all the different mods built to work with Mine Little Pony or tha
 6. [Debuggify](https://modrinth.com/mod/debuggify)
 7. [EMI](https://modrinth.com/mod/emi)
 
+### Lite
+we also provide a lite version of the pack wich is a reduced client only version of the modpack
+
 ## FAQ
 
 **Q: What minecraft versions do you support?**
 
-A: At the time of writing this modpack supports both 1.20.1 and 1.20.2
+A: At the time of writing this modpack supports both 1.20.1 and 1.20.4
 
 **Q: Okay, but what minecraft version do you recommend we play this modpack on?**
 
