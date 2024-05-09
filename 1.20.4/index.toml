@@ -60,6 +60,10 @@ file = "mods/forge-config-api-port.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hd-skins.pw.toml"
 metafile = true
 
@@ -101,6 +105,10 @@ metafile = true
 
 [[files]]
 file = "mods/seasonhud-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
 metafile = true
 
 [[files]]
