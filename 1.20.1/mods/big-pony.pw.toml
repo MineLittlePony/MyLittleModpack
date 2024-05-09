@@ -1,13 +1,13 @@
 name = "Big Pony"
-filename = "bigpony-1.10.0.jar"
+filename = "bigpony-1.11.2+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/h9pJxJR9/versions/tp53F5bh/bigpony-1.10.0.jar"
+url = "https://cdn.modrinth.com/data/h9pJxJR9/versions/Py1YQnif/bigpony-1.11.2%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "2d90740bb9ab3b0f64d6191ceabd244d64836c3c"
+hash = "7b7d27be87f90776eab16540319ac876d32f62b0"
 
 [update]
 [update.modrinth]
 mod-id = "h9pJxJR9"
-version = "tp53F5bh"
+version = "Py1YQnif"

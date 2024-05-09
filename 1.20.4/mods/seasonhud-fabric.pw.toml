@@ -1,0 +1,13 @@
+name = "SeasonHUD-Fabric"
+filename = "seasonhud-fabric-1.20.4-1.7.19.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iDiIfZLX/versions/LII1TNWr/seasonhud-fabric-1.20.4-1.7.19.jar"
+hash-format = "sha1"
+hash = "4105b8c67d60128480399e92683abb2840540e16"
+
+[update]
+[update.modrinth]
+mod-id = "iDiIfZLX"
+version = "LII1TNWr"
