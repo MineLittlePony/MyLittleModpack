@@ -1,0 +1,13 @@
+name = "Stringer Things"
+filename = "stringerthings-1.5.0+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3bbkaIXw/versions/Gyl5vg4z/stringerthings-1.5.0%2B1.21.jar"
+hash-format = "sha512"
+hash = "900bc07dd8456cb78fc08d334e29ba9f0d02c26c312426dd47279490a7030869950180bae36c5424d2150d198509d98662a555880bd72453c677c1bb27a0e71a"
+
+[update]
+[update.modrinth]
+mod-id = "3bbkaIXw"
+version = "Gyl5vg4z"
