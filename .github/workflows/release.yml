@@ -22,13 +22,13 @@ jobs:
       - name: Get Minecraft Version
         id: minecraft-version
         run: |
-         echo "minecraft-version=$(grep -Pr 'minecraft = "(.+)"' pack.toml | cut -d '"' -f 2)" >> $GITHUB_OUTPUT
+         echo "minecraft-version=$(grep -Pr 'minecraft = "(.+)"' pack/pack.toml | cut -d '"' -f 2)" >> $GITHUB_OUTPUT
 
 
       - name: Get Minecraft Version
         id: pack-version
         run: |
-         echo "pack-version=$(grep -Pr 'version = "(.+)"' pack.toml | cut -d '"' -f 2)" >> $GITHUB_OUTPUT
+         echo "pack-version=$(grep -Pr 'version = "(.+)"' pack/pack.toml | cut -d '"' -f 2)" >> $GITHUB_OUTPUT
 
 
       - name: Release
@@ -57,13 +57,13 @@ jobs:
         id: modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          name: "${{ steps.minecraft-version.outputs.minecraft-version }}-v${{ steps.pack-version.outputs.pack-version }}"
           modrinth-id: ${{ secrets.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_KEY }}
           loaders: fabric
           game-versions: ${{ steps.minecraft-version.outputs.minecraft-version }}
           changelog-file: CHANGELOG.release.*
           files: "build/*.mrpack"
+          version: ${{ steps.pack-version.outputs.pack-version }}
           version-type: ${{ steps.release-type.outputs.release-type }}
 
       - name: Print Modrinth upload status
