@@ -1,9 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "CHANGELOG.md"
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 metafile = true
 
