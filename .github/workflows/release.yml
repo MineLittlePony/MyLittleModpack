@@ -57,13 +57,13 @@ jobs:
         id: modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
+          name: "${{ steps.pack-version.outputs.pack-version }}-${{ steps.minecraft-version.outputs.minecraft-version }}"
           modrinth-id: ${{ secrets.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_KEY }}
           loaders: fabric
           game-versions: ${{ steps.minecraft-version.outputs.minecraft-version }}
           changelog-file: CHANGELOG.release.*
           files: "build/*.mrpack"
-          version: ${{ steps.pack-version.outputs.pack-version }}
           version-type: ${{ steps.release-type.outputs.release-type }}
 
       - name: Print Modrinth upload status
