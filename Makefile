@@ -1,5 +1,5 @@
 
-pack:
+packup:
 	echo building pack:
 	cd pack && packwiz mr export && mv *.mrpack ../build/
 

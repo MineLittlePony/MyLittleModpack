@@ -1,9 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "CHANGELOG.md"
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 metafile = true
 
@@ -52,6 +49,10 @@ file = "mods/fabric-seasons-delight-compat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fabric-seasons-extras.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fabric-seasons.pw.toml"
 metafile = true
 
@@ -69,6 +70,10 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
@@ -108,15 +113,15 @@ file = "mods/presence-footsteps.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/seasonhud-fabric.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/sockies.pw.toml"
 metafile = true
 
 [[files]]
