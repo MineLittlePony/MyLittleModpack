@@ -1,0 +1,73 @@
+name: Publish
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+
+
+      - name: Build
+        run: |
+         go install github.com/packwiz/packwiz@latest
+         export PATH=/home/runner/go/bin:$PATH
+         make pack
+
+      - name: Get Minecraft Version
+        id: minecraft-version
+        run: |
+         echo "minecraft-version=$(grep -Pr 'minecraft = "(.+)"' pack.toml | cut -d '"' -f 2)" >> $GITHUB_OUTPUT
+
+
+      - name: Get Minecraft Version
+        id: pack-version
+        run: |
+         echo "pack-version=$(grep -Pr 'version = "(.+)"' pack.toml | cut -d '"' -f 2)" >> $GITHUB_OUTPUT
+
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: build/*.mrpack
+
+      - name: Set publish version-type
+        id: release-type
+        run: |
+          if [ "${{ steps.latest-release.outputs.prerelease }}" = "true" ]; then
+            echo "Setting release-type to beta"
+            echo "release-type=beta" >> $GITHUB_OUTPUT
+          else
+            echo "Setting release-type to release"
+            echo "release-type=release" >> $GITHUB_OUTPUT
+          fi
+        shell: bash
+
+      - name: Pipe latest release description to file
+        run: echo "${{ steps.latest-release.outputs.body }}" > CHANGELOG.release.md
+        shell: bash
+
+      - name: Publish to Modrinth
+        id: modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ secrets.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          loaders: fabric
+          game-versions: ${{ steps.minecraft-version.outputs.minecraft-version }}
+          changelog-file: CHANGELOG.release.*
+          files: "build/*.mrpack"
+          version: ${{ steps.pack-version.outputs.pack-version }}
+          version-type: ${{ steps.release-type.outputs.release-type }}
+
+      - name: Print Modrinth upload status
+        if: steps.modrinth.outcome == 'success'
+        run: |
+          echo "::notice ::☀ Modpack has been uploaded to Modrinth with ${{ secrets.MODRINTH_ID }}"
+        shell: bash
