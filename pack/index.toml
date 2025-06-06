@@ -121,6 +121,10 @@ file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 metafile = true
 
