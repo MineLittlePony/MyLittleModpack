@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/big-pony.pw.toml"
 metafile = true
 
