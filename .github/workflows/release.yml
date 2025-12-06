@@ -18,6 +18,7 @@ jobs:
          go install github.com/packwiz/packwiz@latest
          export PATH=/home/runner/go/bin:$PATH
          make packup
+         rm build/.gitkeep
 
       - name: Get Minecraft Version
         id: minecraft-version
